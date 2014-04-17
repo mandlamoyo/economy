@@ -41,3 +41,6 @@ def updateAll( show, n=1 ):
         if show == STATS:
             print "%.2f%%,\t$%d,\t[$%d:$%d:$%d],\t%d,\t$%d,\t%d\t$%d,\t\t$%d,\t\t$%d,\t\t$%d" % (unemployment, gdi, lw, aw, hw, production, netProfit, capital, netValue, richest, avm, poorest)
     
+# updateAll( [STATS|NONE|SOME|ALL], n )
+# Workers.printDetails()
+# JobMarket.printDetails()
